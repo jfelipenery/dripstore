@@ -1,13 +1,15 @@
-export default function filtro() {
+import "./Filtro.css";
+
+export default function Filtro() {
     return ( 
 
 
 <main className="principal">
       <section className="filtro">
-        <div aclassName="geral">
-          <p aclassName="categorias" id="um">Filtrar por</p>
+        <div className="geral">
+          <p className="categorias" id="um">Filtrar por</p>
           <hr />
-          <p classclassName="linha"></p>
+          <p className="linha"></p>
           <p className="categorias">Marca</p>
           <div className="marcador">
             <input type="checkbox" id="filtro" name="marca" value="adidas" />
@@ -94,7 +96,7 @@ export default function filtro() {
             <input type="radio" id="filtro" name="estado" value="novo" />
             <label for="novo">Novo</label>
           </div>
-          <div NclassName="marcador">
+          <div className="marcador">
             <input type="radio" id="filtro" name="estado" value="usado" />
             <label for="usado">Usado</label>
           </div>

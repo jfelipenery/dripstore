@@ -1,8 +1,11 @@
+
+
 .filtro {
     border: 1px solid lightgray;
     background-color: white;
     padding: 15px;
     margin-right: 20px;
+   
     width: 200px;
     flex-shrink: 0; /* Impede que o filtro encolha demais */
   }
@@ -38,4 +41,11 @@
     width: 14px;
     height: 14px;
     accent-color: #c92071;
+  }
+
+  .filtro {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
   }
