@@ -2,14 +2,14 @@ import './Header.css';
 import logo from "../../assets/logo.png";
 import lupa from "../../assets/Search.png";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import carrinho from '../../assets/img/carrinhodecompras.png'
 
 
 export default function Header() {
-    const [selectionLink, setSelectionLink] = useState('Home');
+    const [selectedLink, setSelectedLink] = useState('Home');
 
-    const handleClick = (linkname) => { setSelectionLink(linkname)};
-
-
+    const handleClick = (linkname) => { setSelectedLink(linkname) };
 
 
     return (
@@ -17,35 +17,60 @@ export default function Header() {
             <div className="divheadertoda">
 
                 <div className="imagemlogodigital">
-                    <Link to= ><img src={logo} alt="logotipo da drip store" /></Link>
+                    <Link to={'/'} ><img src={logo} alt="logotipo da drip store" /></Link>
                 </div>
 
                 <div className="container-pesquisa">
                     <input type="text" className="input-pesquisa" placeholder="Pesquisar produto..." />
-                    <Link to= ><img src={lupa} alt="Buscar" className="icone-lupa" /></Link>
+                    <Link to={'/pagina2'} ><img src={lupa} alt="Buscar" className="icone-lupa" /></Link>
                 </div>
 
                 <div className="linkcadastro">
-                    <LInk to= className="linkcadastrese btn-cadastro">Cadastre-se</Link>
+                    <Link to="/cadastro" className="linkcadastrese btn-cadastro">Cadastre-se</Link>
 
-                    <Link to= > <button type="button" className="entrar">Entrar</button></Link>
+                    <Link to="/login"> <button type="button" className="entrar">Entrar</button></Link>
 
-                    <Link to= > <img className="imagemcarrinho" src="./images/carrinhodecompras.png" alt="" /> </Link>
+                    <Link to="/carrinho" > <img className="imagemcarrinho" src={carrinho} alt="" /> </Link>
 
 
                 </div>
 
             </div>
 
-            <div className="links">
-                <ul className="lista">
+            <div className="linksHeader">
 
-                    <li><Link to={'/'}>Home</Link></li>
-                    <li><Link to={'./pagina2'}>Produtos</Link></li>
-                    <li><Link to={'./pagina3'}>Categorias</Link></li>
-                    <li><Link to={''}>Meus Produtos</Link></li>
+                <Link
+                    to={'/'}
+                    className={`links ${selectedLink === 'Home' ? 'selected' : ''}`}
+                    onClick={() => handleClick('Home')}
+                >
+                    Home
+                </Link>
 
-                </ul>
+                <Link
+                    to={'/Pagina2'}
+                    className={`links ${selectedLink === 'Produtos' ? 'selected' : ''}`}
+                    onClick={() => handleClick('Produtos')}
+                >
+                    Produtos
+                </Link>
+
+                <Link
+                    to={'/Pagina3'}
+                    className={`links ${selectedLink === 'Categorias' ? 'selected' : ''}`}
+                    onClick={() => handleClick('Categorias')}
+                >
+                    Categorias
+                </Link>
+
+                <Link
+                    to={'/'}
+                    className={`links ${selectedLink === 'Pedidos' ? 'selected' : ''}`}
+                    onClick={() => handleClick('Pedidos')}
+                >
+                    Meus Pedidos
+                </Link>
+
             </div>
         </header>
 

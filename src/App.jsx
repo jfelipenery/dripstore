@@ -1,6 +1,5 @@
-import Card from "./components/Card/Card"
-import Filtro from "./components/filtro/filtro"
-import Pagina2 from "./pages/pagina2/pagina2"
+import Pagina1 from "./pages/pagina1/Pagina1"
+
 
 function App() {
   
@@ -8,7 +7,7 @@ function App() {
   return (
     <>
     
-    <Pagina2/>
+    <Pagina1/>
     
     
     
