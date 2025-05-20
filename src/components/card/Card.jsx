@@ -1,22 +1,24 @@
-import "../Card/card.css"
-
-export default function Card(){
-    return(
+import "../../components/card/card.css";
 
 
-        <div>
-          <div className="imagem">
-            <p className="balão">30% off</p>
-            <img className="tenis" src="img/Tenis.png" alt="Tênis" />
-          </div>
-          <div className="textos">
-            <p className="textotenis">Tênis</p>
-            <p className="modelotenis">K-Swiss V8 - Masculino</p>
-            <div className="preco">
-              <p className="preco1">$200</p>
-              <p className="preco2">$100</p>
-            </div>
+export default function Card(props) {
+  return (
+
+    <>
+      <div>
+        <div className="imagem">
+          <p className="balão">30% off</p>
+          <img className="tenis" src={props.imgT} alt="Tênis" />
+        </div>
+        <div className="textos">
+          <p className="textotenis">Tênis</p>
+          <p className="modelotenis">{props.nome} </p>
+          <div className="preco">
+            <p className="preco1">${props.preco}</p>
+            <p className="preco2">${props.desconto}</p>
           </div>
         </div>
-    );
-    }
+      </div>
+    </>
+  );
+}
