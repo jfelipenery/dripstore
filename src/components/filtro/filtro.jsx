@@ -1,13 +1,13 @@
 import "./Filtro.css";
 
 export default function Filtro() {
-    return ( 
-
-
-<main className="principal">
-      <section className="filtro">
+  return (
+    // <main className="principal">
+      <section className="filtro1">
         <div className="geral">
-          <p className="categorias" id="um">Filtrar por</p>
+          <p className="categorias" id="um">
+            Filtrar por
+          </p>
           <hr />
           <p className="linha"></p>
           <p className="categorias">Marca</p>
@@ -102,8 +102,6 @@ export default function Filtro() {
           </div>
         </div>
       </section>
-    </main>
-    
-    )
-
-    }
+    // </main>
+  )
+}
