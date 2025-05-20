@@ -2,8 +2,8 @@ import "./Filtro.css";
 
 export default function Filtro() {
   return (
-    <main className="principal">
-      <section className="filtro">
+    // <main className="principal">
+      <section className="filtro1">
         <div className="geral">
           <p className="categorias" id="um">
             Filtrar por
@@ -102,6 +102,6 @@ export default function Filtro() {
           </div>
         </div>
       </section>
-    </main>
+    // </main>
   )
 }

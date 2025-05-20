@@ -1,91 +1,109 @@
 .grade {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin: -5px;
-    margin-top: 5px;
-  }
-  
-  .Cartão {
-    display: grid;
-  }
-  
-  .balão {
-    display: inline-block;
-    padding: 5px;
-    border: none;
-    border-radius: 30px;
-    background-color: lightyellow;
-    margin-top: -20px;
-    margin-left: 3px;
-    margin-bottom: -10px;
-    /* position: absolute; */
-  }
-  
-  .imagem {
-    background-color: white;
-    width: 190px;
-    height: 150px;
-    top: 332px;
-    left: 420px;
-    padding: 20px;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  height: 400px;
     margin: 5px;
-    margin-top: 15px;
-  }
-  .tenis {
-    margin-left: -45px;
-    margin-top: -25px;
-    width: 220px;
-    /* height: 134px; */
-    top: 495px;
-    left: 410px;
-    justify-items: center;
-    justify-content: center;
-  }
-  .textotenis {
-    color: #8f8f8f;
-    font-family: inter;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 24px;
-    letter-spacing: 0.75px;
-    margin: 0px;
-    margin-bottom: -3px;
-  }
-  
-  .modelotenis {
-    color: #474747;
-    font-family: inherit;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.75px;
-    margin: 0;
-    margin-bottom: -12px;
-  }
-  
-  .preco {
-    display: flex;
-  }
-  .preco1 {
-    color: #8f8f8f;
-    width: 69px;
-    height: 38px;
-    top: 733px;
-    left: 436px;
-    border-width: 1px;
-  }
-  .preco2 {
-    width: 63px;
-    height: 38px;
-    top: 733px;
-    left: 513px;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 38px;
-    letter-spacing: 0.75px;
-    margin: 3px;
-    margin-left: -32px;
-  }
-  
+    
+
+}
+
+.modelo{
+  max-width: 60px;
+  max-height: 40px;
+}
+
+
+
+
+
+.balão {
+  display: inline-block;
+  padding: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: lightyellow;
+  margin-top: -20px;
+  margin-left: 3px;
+  margin-bottom: -10px;
+  /* position: absolute; */
+}
+
+.imagem {
+  background-color: white;
+  width: 190px;
+  height: 150px;
+  top: 332px;
+  left: 420px;
+  padding: 20px;
+  margin: 5px;
+  margin-top: 15px;
+}
+
+.tenis {
+  margin-left: -45px;
+  margin-top: -25px;
+  width: 220px;
+  /* height: 134px; */
+  top: 495px;
+  left: 410px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.textotenis {
+  color: #8f8f8f;
+  font-family: inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  margin: 0px;
+  margin-bottom: -3px;
+}
+
+.modelotenis {
+  color: #474747;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.75px;
+  margin: 0;
+  margin-bottom: 0px;
+}
+
+.preco {
+  display: flex;
+  margin-top: 30px;
+  font-weight: 500px;
+}
+
+.preco1 {
+  color: #8f8f8f;
+  width: 69px;
+  height: 38px;
+  top: 733px;
+  left: 436px;
+  border-width: 1px;
+  font-weight: 900px;
+  font-family: inherit;
+}
+
+.preco2 {
+  width: 63px;
+  height: 38px;
+  top: 733px;
+  left: 513px;
+  font-family: inherit;
+  font-weight: 500px;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  margin: 3px;
+  margin-left: -32px;
+}
