@@ -3,6 +3,8 @@ body, html{
   margin: 0px;
   padding: 0;
   
+  max-height: 680px;
+  
 }
 
 body{

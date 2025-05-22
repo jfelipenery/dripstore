@@ -1,5 +1,6 @@
 import Card from "../../components/card/Card"
 import Filtro from "../../components/filtro/filtro"
+import Footer from "../../components/footer/footer"
 import "./pagina2.css"
 
 export default function Pagina2() {
@@ -19,7 +20,7 @@ export default function Pagina2() {
         { nome: "Calenciaga Speed", imgT: "src/assets/img/Tenis.png", preco: 700, desconto: 350 },
         { nome: "Nike Blazer", imgT: "src/assets/img/Tenis.png", preco: 400, desconto: 200 },
         { nome: "Adidas Stan Smith", imgT: "src/assets/img/Tenis.png", preco: 300, desconto: 150 },
-        { nome: "Puma Basket", imgT: "src/assets/img/Tenis.png", preco: 250, desconto: 125 }
+        
     ]
 
 
@@ -41,6 +42,8 @@ export default function Pagina2() {
 
                 </div>
             </div>
+
+           
 
         </>
 

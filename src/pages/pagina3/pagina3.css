@@ -1,0 +1,64 @@
+body {
+    background: #F9F8FE;
+}
+
+.container {
+    margin: 20px;
+}
+
+.menu > label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #474747;
+    &:nth-child(1) {
+        font-weight: 700;
+    }
+}
+
+.content {
+    display: flex;
+}
+
+.main-image {
+    width: 670px;
+    height: 520px;
+}
+
+.secondary-image {
+    top: 25px;
+    position: relative;
+    & img {
+        margin-right: 15px;
+    }
+}
+
+main {
+    top: 40px;
+    position: relative;
+}
+
+aside {
+    top: 40px;
+    position: relative;
+    left: 10px;
+    & h1 {
+        font-weight: 700px;
+        size: 32px;
+        margin: 0;
+
+         }
+    & p {
+        font-weight: 500px;
+        size:12px;
+        margin: top 0;
+        margin-bottom: 1rem;
+        
+       
+       
+    }
+    .avalie{
+        position: relative;
+        left: 10px;
+    }
+   
+}
