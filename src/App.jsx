@@ -1,4 +1,7 @@
-import Layout from "./components/Layout"
+
+
+import Cadastro from "./components/cadastro/Cadastro"
+import Footer from "./components/footer/footer"
 
 
 
@@ -12,10 +15,9 @@ function App() {
 
   return (
   <>
-    <Layout/>
+
     
-    
-    
+    <Cadastro/>
     
 
   </>

@@ -1,12 +1,13 @@
 import "./Footer.css"
-import face from "../../assets/img/face.png"
-import insta from "../../assets/img/insta.png"
-import twitter from "../../assets/img/twitter.png"
-import logo from "../../assets/img/logo.branca.png"
+import face from "../../assets/imgFooter/face.png"
+import insta from "../../assets/imgFooter/insta.png"
+import twitter from "../../assets/imgFooter/twitter.png"
+import logo from "../../assets/imgFooter/logo.branca.png"
 
 
 export default function Footer() {
   return (
+    <>
     <footer>
     <div className="div-principal">
       <div className="div1">
@@ -64,5 +65,6 @@ export default function Footer() {
       <p className="p-final">© 2025 Digital College</p>
     
    </footer>
+    </>
   );
 }
