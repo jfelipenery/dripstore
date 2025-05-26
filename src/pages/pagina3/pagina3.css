@@ -25,10 +25,11 @@ body {
 }
 
 .secondary-image {
+    display: flex;
     top: 25px;
     position: relative;
     & img {
-        margin-right: 15px;
+    margin-right: 5px;
     }
 }
 
@@ -62,3 +63,27 @@ aside {
     }
    
 }
+
+.container{
+    width: 50%;
+    margin-bottom: 500px;
+}
+
+
+
+.d-block{
+    background-color: lightcoral;
+    width: 600px;
+    height: 450px;
+}
+.d-block2{
+    background-color: lightgreen;
+    width: 600px;
+    height: 450px;
+}
+.d-block3{
+    background-color: lightblue;
+    width: 600px;
+    height: 450px;
+}
+
