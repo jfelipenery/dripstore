@@ -10,7 +10,7 @@ export default function Pagina2() {
         { nome: "Adidas Ultraboost", imgT: "src/assets/img/Tenis.png", preco: 500, desconto: 250, oferta: false },
         { nome: "Puma RS-X", imgT: "src/assets/img/Tenis.png", preco: 350, desconto: 175 },
         { nome: "Calenciaga Triple S", imgT: "src/assets/img/Tenis.png", preco: 800, desconto: 400 },
-        { nome: "Nike Air Force 1", imgT: "src/assets/img/Tenis.png", preco: 450, desconto: 225 },
+        { nome: "Nike Air Force", imgT: "src/assets/img/Tenis.png", preco: 450, desconto: 225 },
         { nome: "Adidas Superstar", imgT: "src/assets/img/Tenis.png", preco: 350, desconto: 175 },      
         { nome: "Puma Suede", imgT: "src/assets/img/Tenis.png", preco: 300, desconto: 150 },     
         { nome: "K-Swiss Classic", imgT: "src/assets/img/Tenis.png", preco: 250, desconto: 125 },
