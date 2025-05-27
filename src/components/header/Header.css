@@ -1,15 +1,13 @@
-@media (max-width: 768px) {
-    .cabeca {
-        background-color: white;
-        padding: 15px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        flex-direction: column;
-        padding: 1rem;
+.cabeca {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* padding: 1rem; */
 
-    }
 }
+
 
 .divheadertoda {
     display: flex;
@@ -27,7 +25,6 @@
 
 .container-pesquisa {
     background-color: whitesmoke;
-    /*campo de pesquisa*/
     display: flex;
     align-items: center;
     border-radius: 8px;
@@ -36,7 +33,7 @@
     overflow: hidden;
     margin-right: 100px;
     height: 60px;
-    /* Reduzindo a altura para telas menores */
+
 }
 
 .input-pesquisa {
@@ -64,14 +61,14 @@
 
 .linkcadastro {
     display: flex;
-    gap: 40px;
-    margin-right: 80px;
+    gap: 30px;
+    margin-right: 30px;
 
 
 }
 
 .btn-cadastro {
-    padding: 8px 12px;
+    padding: 8px 10px;
     color: #000000;
     text-decoration: none;
     font-size: 17px;
@@ -99,8 +96,10 @@
     height: 24px;
     margin-left: 10px;
 }
+
 .links {
     color: #474747;
+
 }
 
 .linksHeader {
@@ -115,11 +114,14 @@
     font-size: 17px;
     list-style: none;
     gap: 1rem;
+
+
 }
 
 .linksHeader a {
     color: #000000;
     text-decoration: none;
+    
 
 }
 
@@ -133,7 +135,7 @@
 }
 
 .links.selected {
-    border-bottom: 4px solid rgb(201 32 113) ;
+    border-bottom: 4px solid rgb(201 32 113);
     border-radius: 1.5px;
 }
 
