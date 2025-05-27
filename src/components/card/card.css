@@ -2,31 +2,25 @@
   display: inline-block;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: white;
+  /* background-color: white; */
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
   height: 400px;
-    margin: 5px;
-    
-
+  margin: 5px;
 }
 
-.modelo{
+.modelo {
   max-width: 60px;
   max-height: 40px;
 }
 
-
-
-
-
-.balão {
+.balao {
   display: inline-block;
   padding: 5px;
   border: none;
   border-radius: 30px;
-  background-color: lightyellow;
+  background-color: rgb(233, 117, 9);
   margin-top: -20px;
   margin-left: 3px;
   margin-bottom: -10px;
@@ -34,14 +28,14 @@
 }
 
 .imagem {
-  background-color: white;
+  background-color:#f5f5f5;
   width: 190px;
   height: 150px;
   top: 332px;
   left: 420px;
   padding: 20px;
   margin: 5px;
-  margin-top: 15px;
+  margin-top: -5px;
 }
 
 .tenis {
@@ -63,10 +57,13 @@
   line-height: 24px;
   letter-spacing: 0.75px;
   margin: 0px;
-  margin-bottom: -3px;
+  margin-top: 50px;
+  margin-bottom: 3px;
 }
 
 .modelotenis {
+  display: flex;
+  justify-content: center;
   color: #474747;
   font-family: inherit;
   font-weight: 300;
@@ -75,20 +72,23 @@
   letter-spacing: 0.75px;
   margin: 0;
   margin-bottom: 0px;
+  margin-left: 20px;
 }
 
 .preco {
   display: flex;
-  margin-top: 30px;
+  margin-top: 10px;
   font-weight: 500px;
+  margin-left: 20px;
 }
 
 .preco1 {
   color: #8f8f8f;
   width: 69px;
   height: 38px;
-  top: 733px;
-  left: 436px;
+  margin-top: 50px;
+  margin-left: 20px;
+  text-decoration: line-through;
   border-width: 1px;
   font-weight: 900px;
   font-family: inherit;
@@ -97,8 +97,7 @@
 .preco2 {
   width: 63px;
   height: 38px;
-  top: 733px;
-  left: 513px;
+
   font-family: inherit;
   font-weight: 500px;
   font-size: 24px;
