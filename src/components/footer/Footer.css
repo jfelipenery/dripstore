@@ -11,7 +11,7 @@ footer {
     /* margin-top: -350px; */
 }
 
-.div1 {
+.div1{
     width: 370px;
     height: 78px;
 
@@ -21,7 +21,7 @@ footer {
 
 }
 
-.div2 {
+.div2{
     width: 135px;
     height: 278px;
     /* top: 72px;
@@ -29,7 +29,7 @@ footer {
 
 }
 
-.div3 {
+.div3{
     width: 96px;
     height: 240px;
     /* top: 72px;
@@ -37,7 +37,7 @@ footer {
 
 }
 
-.div4 {
+.div4{
     width: 233px;
     height: 168px;
     /* top: 72px;
@@ -54,30 +54,32 @@ footer {
 
 }
 
-.p-final {
+.p-final{
     text-align: center;
 }
 
-.p-final:hover {
+.p-final:hover{
     color: white;
     cursor: auto;
 }
 
-.redes {
+.redes{
     display: flex;
     gap: 30px;
 }
 
-footer p {
+footer p{
     color: white;
     cursor: pointer;
 }
 
-footer p:hover {
-    color: #C92071;
+footer p:hover{
+    color:#C92071;
 }
 
-.p-inicial:hover {
+.p-inicial:hover{
+    display: flex;
+    flex-direction: row;
     color: white;
     cursor: auto;
 }

@@ -1,16 +1,20 @@
-
+.Logo{
+  padding-top: 25px;
+  padding-left: 100px;
+  }
+  
 .cadastro{
     text-align: center;
     font-weight: bold;
 }
 
-.div1{
+.CriarConta{
     text-align: start;
     padding-left: 433px;
-
+   
 }
 
-.div2{
+.Entrega{
     text-align: start;
     padding-left: 433px;
 }
@@ -25,10 +29,11 @@ label{
 .caixinhaTermo{
     width: 30px;
     height: 15px;
+    margin-top: -15px;
 
 }
 
-.div3{
+.DivTermo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +57,7 @@ input[type = "checkbox"]:checked{
 .ptermo{
     font-size: 16px;
     font-weight: 350;
+    text-align: center;
 }
 .botao{
     width: 750px;
@@ -64,8 +70,12 @@ input[type = "checkbox"]:checked{
     cursor: pointer;
 }
 
-.divlogo{
-padding-top: 25px;
-padding-left: 100px;
+.hr1{
+    width: 655px;
+    margin-right: 900px;
 }
 
+.hr2{
+    width: 655px;
+    margin-right: 900px;
+  }
