@@ -9,7 +9,7 @@ export default function Filtro() {
           Filtrar por
         </p>
         <hr />
-        <p className="linha"></p>
+        {/* <p className="linha"></p> */}
         <p className="categorias">Marca</p>
         <div className="marcador">
           <input type="checkbox" id="filtro" name="marca" value="adidas" />
