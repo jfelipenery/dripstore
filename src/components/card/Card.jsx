@@ -7,7 +7,7 @@ export default function Card(props) {
     <>
       <div className="grade">
         <div className="imagem">
-          <p className="balão"> {props.oferta ? "30% off": null }</p>
+          <p className={props.oferta ? 'balao' : ''}> {props.oferta ? "30% off": null }</p>
           <img className="tenis" src={props.imgT} alt="Tênis" />
         </div>
         <div className="textos">
