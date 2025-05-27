@@ -1,15 +1,14 @@
 footer {
-    background: #1F1F1F;
-    color: white;
-    padding: 20px 0;
-    border-radius: 5px;
-    margin-top: 3290px;
-    width: 100%;
-    font-family: "inter";
-    /* margin-top: -350px; */
+background: #1F1F1F;
+color: white;
+padding: 20px 0;
+border-radius: 5px;
+margin-top: 3290px;
+width: 100%;
+font-family: "inter";
 }
 
-.div1 {
+.div1{
     width: 370px;
     height: 78px;
     top: 151;
@@ -17,23 +16,23 @@ footer {
 
 }
 
-.div2 {
+.div2{
     width: 135px;
     height: 278px;
     top: 72px;
     left: 612px;
-
+    
 }
 
-.div3 {
+.div3{
     width: 96px;
     height: 240px;
     top: 72px;
     left: 849px;
-
+    
 }
 
-.div4 {
+.div4{
     width: 233px;
     height: 168px;
     top: 72px;
@@ -41,37 +40,39 @@ footer {
     display: wrap;
 }
 
-.div-principal {
+.div-principal{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 40px;
-
+    padding-bottom: 40px;   
+    
 }
 
-.p-final {
+.p-final{
     text-align: center;
 }
 
-.p-final:hover {
+.p-final:hover{
     color: white;
     cursor: auto;
 }
 
-.redes {
+.redes{
     display: flex;
     gap: 30px;
 }
 
-footer p {
+footer p{
     color: white;
     cursor: pointer;
 }
 
-footer p:hover {
-    color: #C92071;
+footer p:hover{
+    color:#C92071;
 }
 
-.p-inicial:hover {
+.p-inicial:hover{
+    display: flex;
+    flex-direction: row;
     color: white;
     cursor: auto;
 }

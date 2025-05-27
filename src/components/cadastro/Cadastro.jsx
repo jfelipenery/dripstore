@@ -4,19 +4,19 @@ import logo from '../../assets/imgCadastro/logo.rosa.png'
 export default function Cadastro(){
     return(
         <>
-    <head>
-        <div class="divlogo">
+    
+        <div className="Logo">
         <img src={logo} alt=""/>
         </div>
-    </head>
-    <section class="cadastro">
-    <div class="div1">
+    
+    <section className="cadastro">
+    <div className="CriarConta">
         <h1>Criar Conta</h1>
 
         <p>Informações Pessoais</p>
-        <hr width="680px" style="margin-right: 900px;"/>
+        <hr className='hr1'/>
     </div>
-
+    <form>
         <label for="nome">Nome completo *</label>
         <input type="text" id="nome"
         placeholder="Insira seu nome" required/>
@@ -29,9 +29,9 @@ export default function Cadastro(){
         <input type="text" id="celular" required
         placeholder="Insira seu celular"/> 
     
-    <div class="div2">
+    <div className="Entrega">
         <p>Informações de entrega</p>
-        <hr width="680px" style="margin-right: 900px;"/>
+        <hr className='hr2'/>
     </div>
        <label for="endereco">Endereço *</label>
        <input type="text" id="endereco" required
@@ -49,13 +49,15 @@ export default function Cadastro(){
        <input type="text" name="cep" id="cep"
        placeholder="Insira seu CEP"/>
        <br/><br/>
-
-    <div class="div3">
-       <input type="checkbox" class="caixinhaTermo"/>
-       <p class="ptermo">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente</p>
-    </div>
+       
+    <div className="DivTermo">
+       <input type="checkbox" className="caixinhaTermo"/>
+       <p className="ptermo">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente</p>
+       </div>
+   
        <br/><br/>
-       <button class="botao">Criar Conta</button>
+       <button className="botao" type="submit">Criar Conta</button>
+     </form>
      </section>
   
   

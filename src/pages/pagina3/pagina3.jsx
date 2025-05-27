@@ -1,11 +1,11 @@
-import avaliacao from "../../assets/img/imgpagina3/avaliação.png";
-import estrela from "../../assets/img/imgpagina3/stars.png";
-import mainImage from "../../assets/img/imgpagina3/main-image.png";
-import shoes1 from "../../assets/img/imgpagina3/shoes1.png";
-import shoes2 from "../../assets/img/imgpagina3/shoes2.png";
-import shoes3 from "../../assets/img/imgpagina3/shoes3.png";
-import shoes4 from "../../assets/img/imgpagina3/shoes4.png";
-import shoes5 from "../../assets/img/imgpagina3/shoes5.png";
+import avaliacao from "../../assets/imgpagina3/avaliação.png";
+import estrela from "../../assets/imgpagina3/stars.png";
+import mainImage from "../../assets/imgpagina3/main-image.png";
+import shoes1 from "../../assets/imgpagina3/shoes1.png";
+import shoes2 from "../../assets/imgpagina3/shoes2.png";
+import shoes3 from "../../assets/imgpagina3/shoes3.png";
+import shoes4 from "../../assets/imgpagina3/shoes4.png";
+import shoes5 from "../../assets/imgpagina3/shoes5.png";
 import "./pagina3.css";
 
 
