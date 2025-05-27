@@ -1,49 +1,55 @@
-
-
 .filtro1 {
-    border: 1px solid lightgray;
-    
-    padding: 15px;
-    margin-right: 20px;
-    margin-left: 40px;
-    margin-top: -12px;
-    width: 200px;
-    height: 115vh;
-    background-color: #f5f5f5;
-    
-    flex-shrink: 0; /* Impede que o filtro encolha demais */
-  }
-  
-  .geral {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 10px 0;
-    font-size: 12px;
-    margin: 0;
-  }
-  
-  .categorias {
-    font-family: "inter", sans-serif;
-    font-weight: bolder;
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  
-  .linha {
-    border-bottom: 1px solid lightgray;
-    width: 100%;
-    margin: 10px 0;
-  }
-  
-  .marcador {
-    margin-left: -10px;
-    padding: 5px 0;
-  }
-  
-  #filtro {
-    width: 14px;
-    height: 14px;
-    accent-color: #c92071;
-  }
+  border: 1px solid lightgray;
 
+  padding: 15px;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-top: -12px;
+  width: 200px;
+  height: 115vh;
+  background-color: #f5f5f5;
+
+  flex-shrink: 0; /* Impede que o filtro encolha demais */
+}
+
+.geral {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 0;
+  font-size: 12px;
+  margin: 0;
+}
+
+.categorias {
+  color: black;
+  font-family: "inter", sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.linha {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.marcador {
+  display: inline-block;
+  align-items: center;
+  color: black;
+  margin-left: -10px;
+  padding: -5px;
+}
+
+#filtro {
+  width: 14px;
+  height: 14px;
+  accent-color: #c92071;
+}
+
+.nomes {
+  margin-left: -370px;
+  margin-top: -32px;
+}
