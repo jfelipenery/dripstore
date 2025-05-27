@@ -1,17 +1,12 @@
 footer {
-    display:block;
-    
+    display: block;
 
-    
     background: #1F1F1F;
     color: white;
     padding: 20px 0;
     border-radius: 5px;
-    margin-top: 200px;
-    margin-left: -200px;
-   
-    
-    
+    margin-top: 3290px;
+    width: 100%;
     font-family: "inter";
     /* margin-top: -350px; */
 }
@@ -19,8 +14,8 @@ footer {
 .div1 {
     width: 370px;
     height: 78px;
-    
-   
+
+
 
     /* left: 0px; */
 
@@ -51,10 +46,10 @@ footer {
 }
 
 .div-principal {
-   display: flex;
+    display: flex;
     justify-content:space-around;
     margin-bottom: 100px;
-    
+
     padding-bottom: -40px;
 
 }
