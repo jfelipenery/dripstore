@@ -13,11 +13,11 @@
 }
 .card {
   display: inline-block;
-  justify-content: space-between;
-  margin: 10px;
+  justify-content: space-around;
+  margin: 0px;
   margin-left: 40px;
   width: 1050px;
   border: 1px none #ddd;
-  background-color: #f5f5f5;
+  background-color: #f8f9fe;
   
 }

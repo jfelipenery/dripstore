@@ -5,9 +5,9 @@ import "./pagina2.css"
 
 export default function Pagina2() {
     const cards = [
-        { nome: "K-Swiss V8", imgT: "src/assets/img/Tenis.png", preco: "$300", desconto: "150", oferta: true },
-        { nome: "Nike Air Max", imgT: "src/assets/img/Tenis.png", preco: "$400", desconto: "$200", oferta: true },
-        { nome: "Adidas Ultraboost", imgT: "src/assets/img/Tenis.png", preco: "$500", desconto: "$250", oferta: true },
+        { nome: "K-Swiss V8", imgT: "src/assets/img/Tenis.png", preco: <span style={{textDecoration: 'line-through'}}>$300</span>, desconto: "$150", oferta: true },
+        { nome: "Nike Air Max", imgT: "src/assets/img/Tenis.png", preco: <span style={{textDecoration:'line-through'}}>$400</span>, desconto: "$200", oferta: true },
+        { nome: "Adidas Ultraboost", imgT: "src/assets/img/Tenis.png", preco: <span style={{textDecoration: 'line-through'}}>$500</span>, desconto: "$250", oferta: true },
         { nome: "Puma RS-X", imgT: "src/assets/img/Tenis.png", preco: "$350", desconto: "$175", oferta: false},
         { nome: "Calenciaga Triple S", imgT: "src/assets/img/Tenis.png", preco: "$800", desconto: "$400",oferta: false },
         { nome: "Nike Air Force", imgT: "src/assets/img/Tenis.png", preco: "$450", desconto: "225" },
@@ -20,6 +20,7 @@ export default function Pagina2() {
         { nome: "Calenciaga Speed", imgT: "src/assets/img/Tenis.png", preco: "$700", desconto: "$350" },
         { nome: "Nike Blazer", imgT: "src/assets/img/Tenis.png", preco: "$400", desconto: "$200" },
         { nome: "Adidas Stan Smith", imgT: "src/assets/img/Tenis.png", preco: "$300", desconto: "$150" },
+      
         
     ]
 
