@@ -90,6 +90,9 @@
     font-size: 14px;
     font-family: "Inter", sans-serif;
 }
+.entrar:hover{
+    background-color: #89194f;
+}
 
 .imagemcarrinho {
     width: 24px;

@@ -26,7 +26,7 @@ export default function Header() {
                 <div className="linkcadastro">
                     <Link to="/Cadastro" className="linkcadastrese btn-cadastro">Cadastre-se</Link>
 
-                    <Link to="/login"> <button type="button" className="entrar">Entrar</button></Link>
+                    <Link to="/Login"> <button type="button" className="entrar">Entrar</button></Link>
 
                     <Link to="/carrinho" > <img className="imagemcarrinho" src={carrinho} alt="" /> </Link>
 

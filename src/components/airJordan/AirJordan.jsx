@@ -21,7 +21,7 @@ export default function () {
 
 
                     <div>
-                        <a href="../pagina2/pagina2.html"><button className="button">Ver ofertas</button></a>
+                        <a href="../pagina2/pagina2.html"><button className="buttonJordan">Ver ofertas</button></a>
                     </div>
 
                 </div>

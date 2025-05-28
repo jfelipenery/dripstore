@@ -5,25 +5,23 @@ import "./login.css"
 export default function Login() {
     return (
         <>
-            <header classNme="logo">
-                <img src="src/assets/img/logo.png" alt="Logo Digital College" />
-            </header>
-            <main className="main">
-                <div className="formulario">
+           
+            <main className="mainLogin">
+                <div className="formularioLogin">
                     <h2>Acesse sua conta</h2>
                     <p>Novo cliente? Então registre-se<a href="#">aqui.</a></p>
 
-                    <form className="form">
+                    <form className="formLogin">
                         <label htmlFor="login">Login</label>
-                        <input
+                        <input className="inputLogin"
                             type="text"
                             id="login"
                             name="login"
                             placeholder="Insira seu login ou email"
                         />
 
-                        <label htmlFor="senha">Senha</label>
-                        <input
+                        <label  htmlFor="senha">Senha</label>
+                        <input className="inputLogin"
                             type="password"
                             id="senha"
                             name="senha"
@@ -34,7 +32,7 @@ export default function Login() {
 
                         <button type="submit">Acessar conta</button>
 
-                        <div className="facebook">
+                        <div className="facebookLogin">
                             <p>Ou faça o login com</p>
                             <img
                                 src="src/assets/img/redes.png"
@@ -47,7 +45,7 @@ export default function Login() {
                 </div>
 
 
-                <div className="imagens">
+                <div className="imagensLogin">
                     <img
                         src="src/assets/img/pexels-melvin-buezo-2529148 1.png"
                         alt="Homem usando moletom e boné"
