@@ -72,6 +72,8 @@ export default function Pagina1() {
       <Colecao2 />
       <ProdutosEmAlta />
       <div className="cartao">
+
+      <div className="card-container">
         {cards.map((card) => (
           <Card
           key={card.nome}
@@ -83,6 +85,8 @@ export default function Pagina1() {
           />
         ))}
       </div>
+      </div>
+
         <AirJordan />
     </>
   );
