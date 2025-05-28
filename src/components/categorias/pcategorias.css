@@ -4,14 +4,14 @@ body {
 
 .container {
     margin: 20px;
-    
+
 }
 
 .menu label {
     font-size: 14px;
     font-weight: 500;
     color: #474747;
-   
+
 }
 
 .content {
@@ -29,7 +29,7 @@ body {
     display: flex;
     top: 25px;
     position: relative;
-    
+
 }
 
 main {
@@ -38,51 +38,47 @@ main {
 }
 
 .T-aside {
-   
+
     position: relative;
     width: 600px;
-    
-    
-    
-} 
+
+
+
+}
+
 .aside h1 {
-        font-weight: 700px;
-        size: 32px;
-        width: 500px;
-        margin: 0;
-        background-color: black;
+    font-weight: 700px;
+    size: 32px;
+    width: 500px;
+    margin: 0;
+    background-color: black;
 
-         }
-
-
+}
 
 
 
-.d-block{
+
+
+.d-block {
     background-color: lightcoral;
     width: 600px;
     height: 450px;
 }
-.d-block2{
+
+.d-block2 {
     background-color: lightgreen;
     width: 600px;
     height: 450px;
 }
-.d-block3{
+
+.d-block3 {
     background-color: lightblue;
     width: 600px;
     height: 450px;
 }
 
 
-
-.revolution {
-    
-   
-}
-
-.avalie{
+.avalie {
     margin-right: 10px;
     margin-left: 10px;
 }
-

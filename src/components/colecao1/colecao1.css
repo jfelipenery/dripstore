@@ -235,3 +235,7 @@
     transition-duration: 0.5s;
     color: rgb(245 245 245);
 }
+
+.tamanhos{
+    display: flex;    
+}

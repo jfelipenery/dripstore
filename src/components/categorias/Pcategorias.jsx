@@ -1,8 +1,11 @@
 
 import "./Pcategorias.css";
+// import React, { useState } from React;
+import React from "react";
 
 
 export default function Pcategorias() {
+  // const [TamanhoSelecionado, setTamanhoSelecionado] = useState(null);
   return (
     <>
       <div className="container">
@@ -11,7 +14,7 @@ export default function Pcategorias() {
           <label>Produtos /</label>
           <label>Tênis /</label>
           <label>Nike /</label>
-          <label>Tênis Nike Revolution <br/> 6 Next Nature Masculino</label>
+          <label>Tênis Nike Revolution <br /> 6 Next Nature Masculino</label>
         </div>
 
         <div className="content">
@@ -64,7 +67,18 @@ export default function Pcategorias() {
             <h3>Descrição do produto</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quia. Dolorum, nisi molestiae ex eaque officiis corrupti. Quia iure voluptates molestias impedit quis quibusdam alias quidem, sapiente eos, autem aliquid.</p>
 
-            <h4>Tamanhos</h4>
+            <h5>Tamanhos</h5>
+            {/* <div class="tamanhos">
+              {[39, 40, 41, 42, 43].map((num) => (
+                <button key={num}
+                  onClick={() => setTamanhoSelecionado(num)}
+                  className={TamanhoSelecionado === num ? 'ativo' : ''}>
+                  {num}
+                </button>))}
+            </div> */}
+            <h4>Cor</h4>
+            <div class="botaoCor"><button>Cor</button></div>
+            <div class="botaoComprar"><button>COMPRAR</button></div>
           </aside>
         </div>
 
