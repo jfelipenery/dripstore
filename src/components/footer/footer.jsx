@@ -1,13 +1,14 @@
 import "./Footer.css"
-import face from "../../assets/img/face.png"
-import insta from "../../assets/img/insta.png"
-import twitter from "../../assets/img/twitter.png"
-import logo from "../../assets/img/logo.branca.png"
+import face from "../../assets/imgFooter/face.png"
+import insta from "../../assets/imgFooter/insta.png"
+import twitter from "../../assets/imgFooter/twitter.png"
+import logo from "../../assets/imgFooter/logo.branca.png"
 
 
 export default function Footer() {
   return (
-    <footer>
+    
+     <footer>
     <div className="div-principal">
       <div className="div1">
         <img src={logo} alt="Logo da Digital College" />
@@ -58,11 +59,12 @@ export default function Footer() {
         <a href="https://api.whatsapp.com/send/?phone=5585999721749&text&type=phone_number&app_absent=0&wame_ctl=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           <p>(85) 3051-3411</p>
         </a>
-      </div>
+        </div>
       </div>
       <hr/>
       <p className="p-final">© 2025 Digital College</p>
-    
+
    </footer>
+ 
   );
 }
