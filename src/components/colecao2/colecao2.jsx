@@ -1,9 +1,9 @@
-import "../../components/colecao2/colecao2.css"
-import Blusa from "../../assets/imgColecao2/t-shirth.png"
-import Calca from "../../assets/imgColecao2/calça.png"
-import Bone from "../../assets/imgColecao2/bone.png"
-import HeadPhone from "../../assets/imgColecao2/headphone.png"
-import Tenis from "../../assets/imgColecao2/tenis.png"
+import "../../components/colecao2/colecao2.css";
+import Blusa from "../../assets/imgColecao2/t-shirth.png";
+import Calca from "../../assets/imgColecao2/calça.png";
+import Bone from "../../assets/imgColecao2/bone.png";
+import HeadPhone from "../../assets/imgColecao2/headphone.png";
+import Tenis from "../../assets/imgColecao2/tenis.png";
 
 
 export default function () {
@@ -49,10 +49,10 @@ export default function () {
                         </section>
 
                         <section className="sectenis">
-                            <div className="tenis">
+                            <div className="sapatin">
                                 <a href="../pagina2/pagina2.html"> <img src={Tenis} alt="" /></a>
                             </div>
-                            <div className="textotenis">Ténis</div>
+                            <div className="textoSapatoColecao">Ténis</div>
                         </section>
                     </div>
                 </section>

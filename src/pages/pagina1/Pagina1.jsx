@@ -1,6 +1,7 @@
 import Carrossel1 from "../../components/carrossel1/Carrossel1";
 import Colecao1 from "../../components/colecao1/Colecao1";
 import Colecao2 from "../../components/colecao2/colecao2";
+import AirJordan from "../../components/airJordan/AirJordan";
 import Card from "../../components/card/Card";
 import Img from "../../assets/imgpagina3/avaliação.png";
 import Footer from "../../components/footer/footer";
@@ -71,15 +72,16 @@ export default function Pagina1() {
       <div className="card-container">
         {cards.map((card) => (
           <Card
-            key={card.nome}
-            nome={card.nome}
-            imgT={card.imgT}
-            preco={card.preco}
-            desconto={card.desconto}
-            oferta={card.oferta}
+          key={card.nome}
+          nome={card.nome}
+          imgT={card.imgT}
+          preco={card.preco}
+          desconto={card.desconto}
+          oferta={card.oferta}
           />
         ))}
       </div>
+        <AirJordan />
     </>
   );
 }
