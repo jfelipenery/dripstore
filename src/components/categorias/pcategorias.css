@@ -7,7 +7,12 @@ body {
     
 }
 
-.menu label {
+.txt-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: #474747;
@@ -32,10 +37,7 @@ body {
     
 }
 
-main {
-    top: 40px;
-    position: relative;
-}
+
 
 .T-aside {
    
@@ -84,5 +86,17 @@ main {
 .avalie{
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.categ3-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-left: 50%;
+    margin-right: 50%;
+    
+    
 }
 

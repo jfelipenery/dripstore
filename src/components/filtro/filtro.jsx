@@ -4,13 +4,13 @@ export default function Filtro() {
   return (
     // <main className="principal">
     <section className="filtro1">
-      <div className="geral">
-        <p className="categorias" id="um">
+      <div className="general">
+        <p className="categories" id="um">
           Filtrar por
         </p>
         <hr />
-        {/* <p className="linha"></p> */}
-        <p className="categorias">Marca</p>
+        <p className="underline"></p>
+        <p className="categories">Marca</p>
         <div className="marcador">
           <input type="checkbox" id="filtro" name="marca" value="adidas" />
           <label className="nomes" for="adidas"> Adidas </label>
@@ -31,7 +31,7 @@ export default function Filtro() {
           <input type="checkbox" id="filtro" name="marca" value="puma" />
           <label className="nomes" for="puma">Puma</label>
         </div>
-        <p className="categorias">Categoria</p>
+        <p className="categories">Categoria</p>
         <div className="marcador">
           <input
             type="checkbox"
@@ -58,7 +58,7 @@ export default function Filtro() {
           <input type="checkbox" id="filtro" name="categoria" value="corrida" />
           <label className="nomes" for="corrida">Corrida</label>
         </div>
-        <p className="categorias">Gênero</p>
+        <p className="categories">Gênero</p>
         <div className="marcador">
           <input type="checkbox" id="filtro" name="genero" value="masculino" />
           <label className="nomes" for="masculino">Masculino</label>
@@ -71,7 +71,7 @@ export default function Filtro() {
           <input type="checkbox" id="filtro" name="genero" value="unisex" />
           <label className="nomes" for="unisex">Unisex</label>
         </div>
-        <p className="categorias">Estado</p>
+        <p className="categories">Estado</p>
         <div className="marcador">
           <input type="radio" id="filtro" name="estado" value="novo" />
           <label className="nomes" for="novo">Novo</label>

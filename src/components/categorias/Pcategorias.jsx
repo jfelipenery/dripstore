@@ -1,12 +1,47 @@
 
 import "./Pcategorias.css";
+import Card from "../../components/card/Card";
 
 
 export default function Pcategorias() {
+
+const cards = [
+    {
+      nome: "K-Swiss V8",
+      imgT: "src/assets/img/Tenis.png",
+      preco: <span style={{ textDecoration: "line-through" }}>$300</span>,
+      desconto: "$150",
+      oferta: true,
+    },
+    {
+      nome: "Nike Air Max",
+      imgT: "src/assets/img/Tenis.png",
+      preco: <span style={{ textDecoration: "line-through" }}>$400</span>,
+      desconto: "$200",
+      oferta: true,
+    },
+    {
+      nome: "Adidas Ultraboost",
+      imgT: "src/assets/img/Tenis.png",
+      preco: <span style={{ textDecoration: "line-through" }}>$500</span>,
+      desconto: "$250",
+      oferta: true,
+    },
+    {
+      nome: "Puma RS-X",
+      imgT: "src/assets/img/Tenis.png",
+      preco: "$350",
+      desconto: "$175",
+      oferta: false,
+    },
+
+
+
+]
   return (
     <>
       <div className="container">
-        <div className="menu">
+        <div className="txt-menu">
           <label>Home /</label>
           <label>Produtos /</label>
           <label>Tênis /</label>
@@ -65,8 +100,29 @@ export default function Pcategorias() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quia. Dolorum, nisi molestiae ex eaque officiis corrupti. Quia iure voluptates molestias impedit quis quibusdam alias quidem, sapiente eos, autem aliquid.</p>
 
             <h4>Tamanhos</h4>
-          </aside>
+          </aside>   
+
+          
         </div>
+
+        <div>
+          <h4>Produtos Relacionados</h4>
+        </div>
+
+        <div className="categ3-cards">
+
+          
+                  {cards.map((card) => (
+                    <Card
+                    key={card.nome}
+                    nome={card.nome}
+                    imgT={card.imgT}
+                    preco={card.preco}
+                    desconto={card.desconto}
+                    oferta={card.oferta}
+                    />
+                  ))}
+                </div>
 
       </div>
     </>
