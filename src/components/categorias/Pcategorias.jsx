@@ -9,7 +9,7 @@ export default function Pcategorias() {
   return (
     <>
       <div className="container">
-        <div className="menu">
+        <div className="txt-menu">
           <label>Home /</label>
           <label>Produtos /</label>
           <label>Tênis /</label>

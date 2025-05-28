@@ -8,22 +8,22 @@
   margin-left: 40px;
   margin-top: -12px;
   width: 200px;
-  height: 100vh;
+  height: 115vh;
   background-color: #f8f9fe;
 
   flex-shrink: 0; /* Impede que o filtro encolha demais */
 }
 
-.geral {
+.general {
   display: flex;
   flex-direction: column;
   gap: 8px;
   padding: 10px 0;
   font-size: 12px;
-  margin: 10px;
+  margin: 0;
 }
 
-.categorias {
+.categories {
   color: black;
   font-family: "inter", sans-serif;
   font-weight: bolder;
@@ -31,7 +31,7 @@
   margin-bottom: 5px;
 }
 
-.linha {
+.underline {
   border-bottom: 1px solid lightgray;
   width: 100%;
   margin: 10px 0;
@@ -52,5 +52,6 @@
 }
 
 .nomes {
-  margin-left: 15px;
+  margin-left: -370px;
+  margin-top: -32px;
 }

@@ -19,7 +19,7 @@
     padding-left: 433px;
 }
 
-label{
+.labelCadastro{
     display: block;
     padding: 10px;
     text-align: start;
@@ -68,6 +68,9 @@ input[type = "checkbox"]:checked{
     border: 0px;
     border-radius: 8px;
     cursor: pointer;
+}
+.botao:hover{
+    background-color: #89194f;
 }
 
 .hr1{
