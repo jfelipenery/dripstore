@@ -4,19 +4,20 @@ body {
 
 .container {
     margin: 20px;
+    
 }
 
-.menu > label {
+.menu label {
     font-size: 14px;
     font-weight: 500;
     color: #474747;
-    &:nth-child(1) {
-        font-weight: 700;
-    }
+   
 }
 
 .content {
     display: flex;
+    gap: 80px;
+
 }
 
 .main-image {
@@ -28,9 +29,7 @@ body {
     display: flex;
     top: 25px;
     position: relative;
-    & img {
-    margin-right: 5px;
-    }
+    
 }
 
 main {
@@ -38,36 +37,24 @@ main {
     position: relative;
 }
 
-aside {
-    top: 40px;
+.T-aside {
+   
     position: relative;
-    left: 10px;
-    & h1 {
+    width: 600px;
+    
+    
+    
+} 
+.aside h1 {
         font-weight: 700px;
         size: 32px;
+        width: 500px;
         margin: 0;
+        background-color: black;
 
          }
-    & p {
-        font-weight: 500px;
-        size:12px;
-        margin: top 0;
-        margin-bottom: 1rem;
-        
-       
-       
-    }
-    .avalie{
-        position: relative;
-        left: 10px;
-    }
-   
-}
 
-.container{
-    width: 50%;
-    
-}
+
 
 
 
@@ -85,5 +72,17 @@ aside {
     background-color: lightblue;
     width: 600px;
     height: 450px;
+}
+
+
+
+.revolution {
+    
+   
+}
+
+.avalie{
+    margin-right: 10px;
+    margin-left: 10px;
 }
 

@@ -68,7 +68,7 @@ export default function Pagina1() {
       <Carrossel1 />
       <Colecao1 />
       <Colecao2 />
-      <div className="cartao">
+      <div className="card-container">
         {cards.map((card) => (
           <Card
             key={card.nome}
