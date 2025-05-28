@@ -5,10 +5,6 @@ export default function Cadastro(){
     return(
         <>
     
-        <div className="Logo">
-        <img src={logo} alt=""/>
-        </div>
-    
     <section className="cadastro">
     <div className="CriarConta">
         <h1>Criar Conta</h1>

@@ -3,15 +3,13 @@ import logo from "../../assets/logo.png";
 import lupa from "../../assets/Search.png";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import carrinho from '../../assets/img/carrinhodecompras.png'
+import carrinho from '../../assets/img/carrinhodecompras.png';
 
 
 export default function Header() {
     const [selectedLink, setSelectedLink] = useState('Home');
 
     const handleClick = (linkname) => { setSelectedLink(linkname) };
-
-
     return (
         <header className="cabeca">
             <div className="divheadertoda">
@@ -26,7 +24,7 @@ export default function Header() {
                 </div>
 
                 <div className="linkcadastro">
-                    <Link to="/cadastro" className="linkcadastrese btn-cadastro">Cadastre-se</Link>
+                    <Link to="/Cadastro" className="linkcadastrese btn-cadastro">Cadastre-se</Link>
 
                     <Link to="/login"> <button type="button" className="entrar">Entrar</button></Link>
 

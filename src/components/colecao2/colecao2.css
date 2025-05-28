@@ -135,21 +135,27 @@
     height: 100px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    gap: 30px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
 }
 
-.tenis {
+.sapatin {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-self: center;
     margin-top: 60px;
+    margin-left: 10px;
+
+    
+    
+    
 }
 
-.textotenis {
+.textoSapatoColecao {
     font-weight: 630;
     font-family: "inter" sans-serif;
     font-size: larger;
     font: normal;
+    margin-top: 30px;
+    
 
 }
